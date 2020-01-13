@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#userBlock{
+    background: burlywood;
+    width: 100%;
+    display: inline-block;
+}
+.user{
+  background-color: blanchedalmond;
+  border-style: solid;
+  height: 100%;
+  min-height: 120px;
+  margin: 10px;
+}
+.user > h1{
+    color: saddlebrown;
+}
+#pageNumbers > div{
+    border-style: solid;
+    margin: 3px;
+    width: 50px;
+    float: left;
+    text-align: center;
+
+}
+#pageNumbers{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#userBlock{
+  width: auto;
+  max-width: 1000px;
+}
+
+#randomUser{
+    text-align: center;
+}
