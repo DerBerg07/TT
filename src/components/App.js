@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import UsersBlock from "./UsersBlock";
+import UsersBlock from "./UserViewBlock/UsersBlock";
 
 
 class App extends Component {

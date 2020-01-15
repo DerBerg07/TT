@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-function PageNymber(props) {
+function PageNumber(props) {
     return(
         <div
             key={props.number}
@@ -15,4 +15,4 @@ function PageNymber(props) {
     )
 }
 
-export default PageNymber
+export default PageNumber

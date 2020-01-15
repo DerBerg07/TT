@@ -10,11 +10,14 @@ class RandomUser extends Component{
 
     componentDidMount() {
         this.randomUserFinder = setInterval(()=>{
-            const User = this.props.users[  Math.floor(Math.random()*this.props.users.length)];
+            const User = this.props.users[Math.floor(Math.random()*this.props.users.length)];
             this.setState({
                 randomUser: User.name + ' ' + User.surname
             })
         }, 3000);
+    }
+    componentWillUnmount(){
+        clearInterval(this.randomUserFinder);
     }
     render() {
 
